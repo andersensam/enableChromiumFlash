@@ -1,3 +1,5 @@
 Simple patcher to use the PPAPI Flash plugin with OS X installations of Chromium
 
+Simply make and execute enableChromiumFlash.
 
+You may want to add enableChromiumFlash to your path for easy access.
