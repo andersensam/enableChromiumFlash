@@ -13,8 +13,15 @@
 #define ENABLEFLASH_H
 
 typedef enum {
-	true = 0,
-	false = 1
+	false = 0, 
+	true = 1
 } bool;
+
+void requestVersion(char* versionNumber);
+void createFile(const char* executionString);
+bool verifyInstallation();
+bool existingInstallation(const char* chromiumName);
+void createInstallation();
+void enableFlash();
 
 #endif
