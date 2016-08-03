@@ -78,7 +78,7 @@ int main(void) {
 	bool vInstall = false;
 	char* versionNumber;
 	char* executionString;
-	char* executionBase = "system(\"/Applications/Chromium.app/Contents/MacOS/Chromium_ --ppapi-flash-path=/Library/Internet\\\\ Plug-Ins/PepperFlashPlayer/PepperFlashPlayer.plugin/Contents/MacOS/PepperFlashPlayer --ppapi-flash-version=";
+	char* executionBase = "system(/Applications/Chromium.app/Contents/MacOS/Chromium_ --ppapi-flash-path=/Library/Internet\\\\ Plug-Ins/PepperFlashPlayer/PepperFlashPlayer.plugin/Contents/MacOS/PepperFlashPlayer --ppapi-flash-version=";
 	char* executionTail = "\");\n";
 	char* chromiumName = "/Applications/Chromium.app/Contents/MacOS/Chromium_";
 	if (!existingInstallation(chromiumName)) {
